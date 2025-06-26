@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 A = pd.DataFrame({
     'ID': [1, 2],
     'Name': ['Bhumi', 'Advait']
@@ -21,3 +20,4 @@ print("Concatenated A and B:\n", AB)
 
 result = AB.merge(C, on='ID')
 print("\nFinal Merged DataFrame:\n", result)
+
